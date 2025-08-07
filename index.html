@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikita Jhariya | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Nikita Jhariya</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Aspiring Software Engineer</h2>
+    <p>Learning Enthusiast • Developer • Building GoLocal</p>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p id="about-text"></p>
+  </section>
+
+
+
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card" id="golocal-card">
+        <h3>GoLocal - Hyperlocal Vendor Discovery App</h3>
+        <p class="project-description">
+          Built a scalable Android/iOS app using React Native and Expo with animated maps, secure cart logic, and
+          modular UI.
+          Simulates location-based Mock vendors with clean and responsive design.
+        </p>
+        <button class="view-btn" data-project="golocal">View Project</button>
+        <div class="project-details">
+          <p><strong>Tech Stack:</strong> React Native, Figma, Expo, Context API, Styled UI</p>
+          <p><strong>Links:</strong>
+            <a href="https://github.com/12Nikita/GoLocal_App" target="_blank">GitHub Repo</a> |
+            <a href="https://www.figma.com/proto/GXduAmvvpWxNR3gtFIheBN/Untitled?node%20id=5-15&p=f&t=Ek5M54dIvMPa1SDH-1&scaling=contain&content-scaling=fixed&page%20id=0%3A1&starting-point-node-id=5%3A15"
+              target="_blank">Figma Case Study</a> |
+            <a href="https://www.youtube.com/shorts/0IMbiLQae48" target="_blank">Watch Demo</a>
+          </p>
+          <ul>
+            <li>Built scalable UI for Android and iOS using Expo and React Native</li>
+            <li>Implemented location-based vendor discovery with animated map features</li>
+            <li>Developed secure and grouped cart logic using React Context API</li>
+            <li>Emphasized performance, clean UI, and modular code structure</li>
+          </ul>
+          <div class="figma-previews">
+            <div class="figma-scroll-container">
+              <img src="images/golocal1.jpg" alt="GoLocal Screen 1" class="figma-frame" />
+              <img src="images/golocal2.jpg" alt="GoLocal Screen 2" class="figma-frame" />
+              <img src="images/golocal32.jpg" alt="GoLocal Screen 3" class="figma-frame" />
+              <img src="images/golocal4.jpg" alt="GoLocal Screen 4" class="figma-frame" />
+              <img src="images/golocal5.jpg" alt="GoLocal Screen 5" class="figma-frame" />
+              <img src="images/golocal6.jpg" alt="GoLocal Screen 5" class="figma-frame" />
+              <img src="images/golocal7.jpg" alt="GoLocal Screen 5" class="figma-frame" />
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="project-card" id="hotstar-card">
+        <h3>Hotstar Clone – Streaming Platform UI</h3>
+        <p class="project-description">
+          Developed a dynamic single-page Hotstar clone using Firebase and React.js. Features Firebase Auth, Firestore,
+          and responsive UI components.
+        </p>
+        <button class="view-btn" data-project="hotstar">View Project</button>
+        <div class="project-details">
+          <p><strong>Tech Stack:</strong> React.js, Firebase, Redux, HTML/CSS, JavaScript</p>
+          <p><strong>Links:</strong>
+            <a href="https://github.com/12Nikita/Hotstar-clone" target="_blank">GitHub Repo</a>
+          </p>
+          <ul>
+            <li>Created a Hotstar-inspired Single Page App (SPA) using React</li>
+            <li>Implemented Firebase Authentication and Firestore for backend</li>
+            <li>Managed UI state and user sessions using Redux</li>
+            <li>Practiced responsive design and modular code architecture</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="overlay" id="overlay"></div>
+
+<section class="education-section" id="education">
+  <h2>Education</h2>
+
+  <div class="info-card">
+    <h3>Bachelor of Engineering – Computer Science</h3>
+    <p>Institute of Engineering and Technology, DAVV, Indore</p>
+    <p>2021 – 2025</p>
+  </div>
+</section>
+
+
+<section class="certifications-section" id="certifications">
+  <h2>Certifications</h2>
+
+  <div class="info-card">
+    <h3>TEACHNOOK Web Development Program</h3>
+  </div>
+
+  <div class="info-card">
+    <h3>TCS iON Career Edge – Young Professional</h3>
+
+  </div>
+</section>
+
+
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-group">
+      <h3>Languages</h3>
+      <ul>
+        <li>C++</li>
+        <li>JavaScript</li>
+      </ul>
+      <h3>Frontend</h3>
+      <ul>
+        <li>React.js</li>
+        <li>React Native</li>
+        <li>Context API</li>
+        <li>Expo</li>
+      </ul>
+      <h3>Fundamentals & Practices</h3>
+      <ul>
+        <li>OOP</li>
+        <li>DSA</li>
+        <li>Agile Methodology</li>
+        <li>SDLC</li>
+        <li>Networking</li>
+        <li>Debugging</li>
+      </ul>
+      <h3>Backend & Tools</h3>
+      <ul>
+        <li>Firebase</li>
+        <li>Git & GitHub</li>
+        <li>Node.js</li>
+        <li>REST APIs</li>
+      </ul>
+      <h3>Learning and Exploring</h3>
+      <ul>
+        <li>Java</li>
+        <li>Postman</li>
+        <li>Python</li>
+        <li>SQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <p>Email: jhariyanikita2003@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/nikita-jhariya-6a0a60245" target="_blank">Nikita Jhariya</a></p>
+  </section>
+  <footer class="footer">
+    <p>Designed & Built by Nikita Jhariya 💙</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
