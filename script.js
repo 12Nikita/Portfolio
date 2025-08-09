@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   
-  const aboutText = `I’m an aspiring Software Engineer passionate about building intuitive, scalable, and reliable digital experiences.
+  const aboutText = `I’m an aspiring computer Engineering Graduate passionate about building intuitive, scalable, and reliable digital experiences.
 
 Over the past year, I’ve explored multiple areas across the product lifecycle, from designing clean, user-focused interfaces to developing full-stack web and mobile apps using React, React Native, JavaScript and Firebase. My recent project, GoLocal, simulates real-world hyperlocal vendor interactions and helped me dive deep into development, design thinking, and debugging.
 
